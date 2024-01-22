@@ -5,9 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <title>Hockey Club</title>
+
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="font-manrope">
+    <header class="max-w-[1170px] mx-auto p-5">
+        <nav></nav>
+
+        <!-- banner start  -->
+        <section class="mt-12">
+            <div class="carousel w-full max-h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="/Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                  <div class="hidden md:block md:absolute right-0 bottom-0 m-8 max-w-[566px] bg-[#131318] rounded-2xl p-8">
+                    <h3 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                    <p class="text-[#AFAFAF] text-base font-medium mt-4">Explore the inspiring stories and remarkable journeys of our field heroes, showcasing their passion, dedication, and triumphs.</p>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="/Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide1" class="btn btn-circle">❮</a> 
+                      <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                    <div class="hidden md:block md:absolute right-0 bottom-0 m-8 max-w-[566px] bg-[#131318] rounded-2xl p-8">
+                      <h3 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                      <p class="text-[#AFAFAF] text-base font-medium mt-4">Explore the inspiring stories and remarkable journeys of our field heroes, showcasing their passion, dedication, and triumphs.</p>
+                    </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="/Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide2" class="btn btn-circle">❮</a> 
+                      <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                    <div class="hidden md:block md:absolute right-0 bottom-0 m-8 max-w-[566px] bg-[#131318] rounded-2xl p-8">
+                      <h3 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                      <p class="text-[#AFAFAF] text-base font-medium mt-4">Explore the inspiring stories and remarkable journeys of our field heroes, showcasing their passion, dedication, and triumphs.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="md:hidden max-w-[566px] mx-auto mt-4 bg-[#131318] rounded-xl p-4">
+                <h3 class="text-white text-lg font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-[#AFAFAF] text-sm font-medium leading-6 mt-2">Explore the inspiring stories and remarkable journeys of our field heroes, showcasing their passion, dedication, and triumphs.</p>
+              </div>
+        </section>
+        <!-- banner end  -->
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
