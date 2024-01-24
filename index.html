@@ -48,11 +48,43 @@
     </style>
 </head>
 <body class="font-manrope">
-    <header class="max-w-[1170px] mx-auto p-5 md:p-3">
-        <nav></nav>
+    <header class="max-w-[1170px] mx-auto px-5 md:px-3">
+        <nav class="mt-4 md:mt-12 ">
+            <div class="navbar">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class=" lg:hidden pl-0 pr-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-[#424247]">
+                        <li><a class="text-[#FF4240] font-bold">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                        <li><a>Search <img class="pr-6 lg:hidden h-5" src="/Images/search.svg" alt=""></a></li>
+                    </ul>
+                  </div>
+                  <a class="text-[#131318] text-2xl md:text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-[#424247]">
+                        <li><a class="text-[#FF4240] font-bold">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <img class="pr-6 hidden lg:block" src="/Images/search.svg" alt="">
+                  <a class="primary-bg text-lg md:text-xl font-bold py-2 md:py-4 px-4 md:px-6 rounded-lg text-white">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
 
         <!-- banner start  -->
-        <section class="mt-12">
+        <section class="mt-7 md:mt-14">
             <div class="carousel w-full max-h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="/Images/1.png" class="w-full" />
@@ -531,11 +563,11 @@
                 <p class="text-base font-medium leading-6 mt-4 opacity-60 ">Connect with us effortlessly for inquiries, support, or collaboration opportunities. Your messages matter, and we're here to assist you promptly.</p>
                 <div class="mt-5 md:mt-6 flex items-center justify-center lg:justify-start gap-4 text-center">
                     <img src="/Images/footer-mail.png" alt="">
-                    <p class="text-base font-medium  opacity-80">hockeys@support.com</p>
+                    <p class="text-base font-medium  opacity-80 hover:underline cursor-pointer">hockeys@support.com</p>
                 </div>
                 <div class="mt-4  flex items-center justify-center lg:justify-start gap-4">
                     <img src="/Images/footer-phone.png" alt="">
-                    <p class="text-base font-medium  opacity-80">(+62) 123-321-543</p>
+                    <p class="text-base font-medium  opacity-80 hover:underline cursor-pointer">(+62) 123-321-543</p>
                 </div>
             </div>
 
@@ -543,11 +575,11 @@
             <div>
                 <h4 class="text-lg font-bold">Company</h4>
                 <div class="mt-6 md:mt-8">
-                    <p class="text-base font-medium leading-10 opacity-60">About us</p>
-                    <p class="text-base font-medium leading-10 opacity-60">Leadership</p>
-                    <p class="text-base font-medium leading-10 opacity-60">Careers</p>
-                    <p class="text-base font-medium leading-10 opacity-60">News & Article</p>
-                    <p class="text-base font-medium leading-10 opacity-60">Legal Notice</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer">About us</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Leadership</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Careers</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">News & Article</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Legal Notice</p>
                 </div>
             </div>
 
@@ -555,10 +587,10 @@
             <div>
                 <h4 class="text-lg font-bold">Support</h4>
                 <div class="mt-6 md:mt-8">
-                    <p class="text-base font-medium leading-10 opacity-60">Help Center</p>
-                    <p class="text-base font-medium leading-10 opacity-60">FAQ</p>
-                    <p class="text-base font-medium leading-10 opacity-60">Ticket Support</p>
-                    <p class="text-base font-medium leading-10 opacity-60">Contact Us</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Help Center</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">FAQ</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Ticket Support</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Contact Us</p>
                 </div>
             </div>
 
@@ -566,11 +598,11 @@
             <div class="w-36 mx-auto col-span-2 lg:col-span-1">
                 <h4 class="text-lg font-bold">Services</h4>
                 <div class="mt-6 md:mt-8">
-                    <p class="text-base font-medium leading-10 opacity-60">Academy</p>
-                    <p class="text-base font-medium leading-10 opacity-60">Group Lesson</p>
-                    <p class="text-base font-medium leading-10 opacity-60">Private Lesson</p>
-                    <p class="text-base font-medium leading-10 opacity-60">Hockeys for kids</p>
-                    <p class="text-base font-medium leading-10 opacity-60">Hockeys for Adult</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Academy</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Group Lesson</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Private Lesson</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Hockeys for kids</p>
+                    <p class="text-base font-medium leading-10 opacity-60 hover:underline cursor-pointer duration-300">Hockeys for Adult</p>
                 </div>
             </div>
 
